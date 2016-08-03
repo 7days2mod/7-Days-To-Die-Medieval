@@ -705,6 +705,201 @@
     <item name="forgedIron" count="1,2" prob="0.01272"/>
     <item name="forgedSteel" count="1,2" prob="0.00848"/>
   </lootgroup>
+  <lootgroup name="medievalClubs" count="1">
+	<item name="clubWood"/>
+	<item name="clubIron"/>
+	<item name="clubBarbed"/>
+	<item name="clubSpiked"/>
+</lootgroup>
+
+<lootgroup name="medievalTools" count="1">
+	<item name="tazasStoneaxe"/>
+	<item name="stoneAxe"/>
+	<item name="fireaxeIron"/>
+	<item name="fireaxeSteel"/>
+	<item name="pickaxeIron"/>
+	<item name="pickaxeSteel"/>
+	<item name="stoneShovel"/>
+	<item name="shovelIron"/>
+	<item name="shovelSteel"/>
+	<item name="hoeIron"/>
+	<item name="clawHammer"/>
+</lootgroup>
+
+<lootgroup name="medievalArrows" count="1">
+	<item name="arrow"/>
+	<item name="ironArrow"/>
+	<item name="steelArrow"/>
+	<item name="flamingArrow"/>
+	<item name="crossbowBolt"/>
+	<item name="ironCrossbowBolt"/>
+	<item name="steelCrossbowBolt"/>
+	<item name="explodingCrossbowBolt"/>
+</lootgroup>
+
+<lootgroup name="medievalFiberClothes" count="1">
+	<item name="plantFiberShirt"/>
+	<item name="plantFiberHood"/>
+	<item name="plantFiberShoes"/>
+	<item name="plantFiberGloves"/>
+	<item name="plantFiberHat"/>
+</lootgroup>
+
+<lootgroup name="medievalClothClothes" count="1">
+	<item name="clothBoots"/>
+	<item name="clothPants"/>
+	<item name="clothJacket"/>
+	<item name="clothHat"/>
+	<item name="clothGloves"/>
+</lootgroup>
+<!--
+<lootgroup name="medievalHideClothes" count="1">
+	<item name="animalHideBoots"/>
+	<item name="animalHideLegArmor"/>
+	<item name="animalHideChestArmor"/>
+	<item name="animalHIdeHood"/>
+	<item name="animalHideGloves"/>
+	<item name="animalHidePoncho"/>
+</lootgroup>
+-->
+<lootgroup name="medievalLeatherClothes" count="1">
+	<item name="leatherBoots"/>
+	<item name="leatherGloves"/>
+	<item name="leatherPants"/>
+	<item name="leatherJacket"/>
+	<item name="leatherHood"/>
+</lootgroup>
+
+<lootgroup name="medievalScrapClothes" count="1">
+	<item name="scrapBoots"/>
+	<item name="scrapLegArmor"/>
+	<item name="scrapChestArmor"/>
+	<item name="scrapHelmet"/>
+	<item name="scrapGloves"/>
+</lootgroup>
+<!--
+<lootgroup name="medievalIronClothes" count="1">
+	<item name="ironBoots"/>
+	<item name="ironLegArmor"/>
+	<item name="ironChestArmor"/>
+	<item name="ironHelmet"/>
+	<item name="ironGloves"/>
+</lootgroup>
+-->
+
+<lootgroup name="medievalBandanas" count="1">
+	<item name="bandana"/>
+	<item name="bandanaRed"/>
+	<item name="bandanaBlue"/>
+	<item name="bandanaGreen"/>
+	<item name="bandanaBrown"/>
+	<item name="bandanaBlack"/>
+</lootgroup>
+
+<lootgroup name="medievalPufferCoats" count="1">
+	<item name="pufferCoat"/>
+	<item name="pufferCoatRed"/>
+	<item name="pufferCoatGreen"/>
+	<item name="pufferCoatBrown"/>
+	<item name="pufferCoatBlack"/>
+</lootgroup>
+
+<lootgroup name="medievalFoods" count="1">
+	<item name="foodHoney"/>
+	<item name="foodYuccaFruit"/>
+	<item name="foodYuccaJuice"/>
+	<item name="corn"/>
+	<item name="cornOnTheCob"/>
+	<item name="cornMeal"/>
+	<item name="cornBread"/>
+	<item name="moldyBread"/>
+	<item name="rawMeat"/>
+	<item name="rottingFlesh"/>
+	<item name="charredMeat"/>
+	<item name="grilledMeat"/>
+	<item name="boiledMeat"/>
+	<item name="meatStew"/>
+	<item name="potato"/>
+	<item name="blueberries"/>
+	<item name="egg"/>
+	<item name="eggboiled"/>
+	<item name="blueberryPie"/>
+	<item name="bakedPotato"/>
+	<item name="baconAndEggs"/>
+	<item name="mushrooms"/>
+	<item name="vegetableStew"/>
+</lootgroup>
+
+<lootgroup name="medievalDrinks" count="1">
+	<item name="bottledRiverWater"/>
+	<item name="bottledWater"/>
+	<item name="goldenRodTea"/>
+	<item name="redTea"/>
+	<item name="beer"/>
+</lootgroup>
+
+<lootgroup name="medievalBooks" count="1">
+	<item name="clubSpikedSchematic"/>
+	<item name="sledgehammerSchematic"/>
+	<item name="huntingKnifeBook"/>
+	<item name="crossbowSchematic"/>
+	<item name="flamingArrowSchematic"/>
+	<item name="explodingCrossbowBoltSchematic"/>
+	<item name="clawHammerSchematic"/>
+	<item name="herbalAntibioticsRecipe"/>
+	<item name="leatherTanning"/>
+	<item name="leatherBootsSchematic"/>
+	<item name="leatherPantsSchematic"/>
+	<item name="leatherJacketSchematic"/>
+	<item name="leatherHoodSchematic"/>
+	<item name="leatherGlovesSchematic"/>
+	<item name="ironHelmetSchematic"/>
+	<item name="ironChestArmorSchematic"/>
+	<item name="ironLegArmorSchematic"/>
+	<item name="ironBootsSchematic"/>
+	<item name="ironGlovesSchematic"/>
+</lootgroup>
+
+<lootgroup name="medievalSeeds" count="1">
+	<item name="cornSeed"/>
+	<item name="potatoSeed"/>
+	<item name="blueberrySeed"/>
+	<item name="cottonSeed"/>
+	<item name="goldenrodSeed"/>
+	<item name="pineSeed"/>
+	<item name="mapleSeed"/>
+	<item name="blueSpruceSeed"/>
+</lootgroup>
+
+<lootgroup name="medievalQuests" count="1">
+    <item name="qc_silenceofthelambs" count="1"/>
+    <item name="qc_drunkanddisorderly" count="1"/>
+    <item name="qc_nurseyoubacktohealth" count="1"/>
+    <item name="qc_copanattitude" count="1"/>
+    <item name="qc_dogdaysareover" count="1"/>
+    <item name="qc_itsbitsyspider" count="1"/>
+    <item name="qc_ladykiller" count="1"/>
+    <item name="qc_maneater" count="1"/>
+    <item name="qc_imalumberjackandimokay" count="1"/>
+    <item name="qc_yournothingspecial" count="1"/>
+    <item name="qc_killthewabbit" count="1"/>
+    <item name="qc_nailsomechicks" count="1"/>
+    <item name="qc_thatlldopig" count="1"/>
+    <item name="qc_stagparty" count="1"/>
+    <item name="qc_dontfeedthebears" count="1"/>
+    <item name="qc_buythefarm" count="1"/>
+</lootgroup>
+  
+<lootgroup name="medievalTreasure" count="1">
+    <item name="qt_taylor" count="1"/>
+    <item name="qt_nickole" count="1"/>
+    <item name="qt_stephan" count="1"/>
+    <item name="qt_jennifer" count="1"/>
+    <item name="qt_claude" count="1"/>
+    <item name="qt_sarah" count="1"/>
+    <item name="qt_raphael" count="1"/>
+</lootgroup>
+
   <lootcontainer id="1" count="0,2" size="4,4" sound_open="UseActions/open_cardboard" sound_close="UseActions/close_cardboard" loot_quality_template="baseTemplate">
     <item group="junk"/>
     <item group="books" prob="0.1"/>
