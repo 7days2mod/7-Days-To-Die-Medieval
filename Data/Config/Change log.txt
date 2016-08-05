@@ -1,0 +1,9 @@
+Removed springs as they are no longer needed.
+Removed glue, oil until gfx can be changed.
+Made many modern items unlootable. Same items will need removing entirely at some stage.
+Removed gas as its a high tech item.
+
+Starting to migrate to custom medieval loot lists including:
+
+Removed a bunch of modern items from recipe.xml.  Needs further review.
+

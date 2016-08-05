@@ -405,7 +405,6 @@
 	<item name="explodingCrossbowBoltSchematic"/>
 	<!--<item name="firstAidKitSchematic"/> Fox: waiting for gfx update -->
 	<item name="flamingArrowSchematic"/>
-	<item name="gasCanSchematic"/>
 	<item name="ironBootsSchematic"/>
 	<item name="ironChestArmorSchematic"/>
 	<item name="ironGlovesSchematic"/>
@@ -420,7 +419,6 @@
 </lootgroup>
 
 <lootgroup name="gasPumps" >
-	<item name="gasCan"/>
 </lootgroup>
 
 <lootgroup name="commonBooks" count="1">
@@ -498,12 +496,12 @@
 	<item name="candleStick"/>
 	<item name="gunPowder" count="1,3"/>
 	<item name="doorKnob" count="1"/>
-	<item name="oil" count="2,6"/>
+	<!-- <item name="oil" count="2,6"/> Fox: waiting for gfx update -->
 	<item name="shortMetalPipe" count="1"/>
 	<item name="fishingWeight" count="1,3"/>
 	<item name="scrapLead" count="1"/>
 	<item name="wood" count="1"/>
-	<item name="glue" count="1"/>
+<!-- Fox: waiting for gfx			<item name="glue" count="1"/> -->
 	<item name="nail" count="1"/>
 <!-- Fox: waiting for gfx		<item name="casinoCoin" count="1,5"/> -->
 	<item name="feather" count="1,3"/>
@@ -519,9 +517,7 @@
 </lootgroup>
 
 <lootgroup name="automotive">
-	<item name="gasCan" count="50,300"/>
-	<item name="oil" count="1,4"/>
-	<item name="spring" count="1,4"/>
+	<!-- <item name="oil" count="1,4"/>  Fox: waiting for gfx update -->
 </lootgroup>
 
 <lootgroup name="hats">
@@ -687,6 +683,262 @@
 	<item name="forgedSteel" count="1,2" prob="0.00848"/>
 </lootgroup>
 
+<lootgroup name="medievalClubs" count="1">
+	<item name="clubWood" prob="1"/>
+	<item name="clubIron" prob="0.6"/>
+	<item name="clubBarbed" prob="0.4"/>
+	<item name="clubSpiked" prob="0.8"/>
+</lootgroup>
+
+<lootgroup name="medievalTools" count="1">
+	<item name="stoneAxe" prob="1"/>
+	<!-- Fox: one or more of these items throws an error	
+	<item name="tazaStoneaxe"/>  -->
+	<item name="fireaxeIron" prob="0.8"/>
+	<item name="fireaxeSteel" prob="0.6"/>
+	<item name="pickaxeIron" prob="0.8"/>
+	<item name="pickaxeSteel" prob="0.6"/> 
+	<item name="stoneShovel"/>
+	<item name="shovelIron" prob="0.8"/>
+	<item name="shovelSteel" prob="0.6"/>
+	<item name="hoeIron" prob="0.8"/>
+	<item name="clawHammer" prob="0.4"/>
+</lootgroup>
+
+<lootgroup name="medievalArrows" count="1">
+	<item name="arrow" count="3,30"/>
+	<item name="ironArrow" count="3,15" prob="0.8"/>
+	<item name="steelArrow" count="3,10" prob="0.6"/>
+	<item name="flamingArrow" count="1,5" prob="0.4"/>
+	<item name="crossbowBolt" count="3,30" prob="0.8"/>
+	<item name="ironCrossbowBolt" count="3,15" prob="0.6"/>
+	<item name="steelCrossbowBolt" count="3,10" prob="0.4"/>
+	<item name="explodingCrossbowBolt" count="1,2" prob="0.2"/>
+</lootgroup>
+
+<lootgroup name="medievalFiberClothes" count="1">
+	<item name="plantFiberShirt"/>
+	<item name="plantFiberHood"/>
+	<item name="plantFiberShoes"/>
+	<item name="plantFiberGloves"/>
+	<!-- Fox: need gfx <item name="plantFiberHat"/> -->
+</lootgroup>
+
+<lootgroup name="medievalClothClothes" count="1">
+	<item name="clothBoots"/>
+	<item name="clothPants"/>
+	<item name="clothJacket"/>
+	<item name="clothHat"/>
+	<item name="clothGloves"/>
+</lootgroup>
+
+<lootgroup name="medievalHideClothes" count="1">
+	<item name="animalHideBoots"/>  
+	<item name="animalHideLegArmor"/>
+	<item name="animalHideChestArmor"/>
+<!--		<item name="animalHIdeHood"/> Fox -->
+	<item name="animalHideGloves"/>
+	<item name="animalHidePoncho"/> 
+</lootgroup>
+
+<lootgroup name="medievalLeatherClothes" count="1">
+	<item name="leatherBoots"/>
+	<item name="leatherGloves"/>
+	<item name="leatherPants"/>
+	<item name="leatherJacket"/>
+	<item name="leatherHood"/>
+</lootgroup>
+<lootgroup name="medievalScrapClothes" count="1">
+	<item name="scrapBoots"/>
+	<item name="scrapLegArmor"/>
+	<item name="scrapChestArmor"/>
+	<item name="scrapHelmet"/>
+	<item name="scrapGloves"/>
+</lootgroup>
+
+<lootgroup name="medievalIronClothes" count="1">
+	<item name="ironBoots"/>
+	<item name="ironLegArmor"/>
+	<item name="ironChestArmor"/>
+	<item name="ironHelmet"/>
+<!--	<item name="ironGloves"/> Fox-->
+</lootgroup>
+
+
+<lootgroup name="medievalBandanas" count="1">
+	<item name="bandana"/>
+	<item name="bandanaRed"/>
+	<item name="bandanaBlue"/>
+	<item name="bandanaGreen"/>
+	<item name="bandanaBrown"/>
+	<item name="bandanaBlack"/>
+</lootgroup>
+
+<lootgroup name="medievalPufferCoats" count="1">
+	<!-- Fox: waiting for gfx <item name="pufferCoat"/>
+	<item name="pufferCoatRed"/>
+	<item name="pufferCoatGreen"/>
+	<item name="pufferCoatBrown"/>
+	<item name="pufferCoatBlack"/> -->
+</lootgroup>
+
+<lootgroup name="medievalFoods" count="0,2">
+	<item name="foodHoney" prob="0.8"/>
+	<item name="foodYuccaFruit" prob="1"/>
+	<item name="foodYuccaJuice" prob="0.4"/>
+	<item name="corn"/>
+	<item name="cornOnTheCob" prob="0.4"/>
+	<item name="cornMeal" prob="0.8"/>
+	<item name="cornBread" prob="0.8"/>
+	<item name="moldyBread"/>
+	<item name="rawMeat"/>
+	<item name="rottingFlesh"/>
+	<item name="charredMeat" prob="0.6"/>
+	<item name="grilledMeat" prob="0.6"/>
+	<item name="boiledMeat" prob="0.6"/>
+	<item name="meatStew" prob="0.2"/>
+	<item name="potato"/>
+	<item name="blueberries" prob="1"/>
+	<item name="egg" count="1,3"/>
+	<item name="eggboiled" prob="0.8"/>
+	<item name="blueberryPie" prob="0.2"/>
+	<item name="bakedPotato" prob="0.2"/>
+	<item name="baconAndEggs" prob="0.2"/>
+	<item name="mushrooms" count="1,2" prob="0.8"/>
+	<item name="vegetableStew" prob="0.2"/>
+</lootgroup>
+
+<lootgroup name="medievalDrinks" count="1">
+	<item name="bottledRiverWater"/>
+	<item name="bottledWater" prob="0.8"/>
+	<item name="goldenRodTea" prob="0.4"/>
+	<item name="redTea" prob="0.4"/>
+	<item name="beer" prob="0.2"/>
+</lootgroup>
+
+<lootgroup name="medievalBooks" count="1">
+	<item name="clubSpikedSchematic"/>
+	<item name="sledgehammerSchematic"/>
+	<item name="huntingKnifeBook"/>
+	<item name="crossbowSchematic"/>
+	<item name="flamingArrowSchematic" prob="0.4"/>
+	<item name="explodingCrossbowBoltSchematic" prob="0.4"/>
+	<item name="clawHammerSchematic" prob="0.4"/>
+	<item name="herbalAntibioticsRecipe"/>
+	<item name="leatherTanning" prob="0.8"/>
+	<item name="leatherBootsSchematic" prob="0.8"/>
+	<item name="leatherPantsSchematic" prob="0.8"/>
+	<item name="leatherJacketSchematic" prob="0.8"/>
+	<item name="leatherHoodSchematic" prob="0.8"/>
+	<item name="leatherGlovesSchematic" prob="0.8"/>
+	<item name="ironHelmetSchematic" prob="0.4"/>
+	<item name="ironChestArmorSchematic" prob="0.4"/>
+	<item name="ironLegArmorSchematic" prob="0.4"/>
+	<item name="ironBootsSchematic" prob="0.4"/>
+	<item name="ironGlovesSchematic" prob="0.4"/>
+</lootgroup>
+
+<lootgroup name="medievalSeeds" count="0,2">
+	<item name="cornSeed"/>
+	<item name="potatoSeed"/>
+	<item name="blueberrySeed"/>
+	<item name="cottonSeed"/>
+	<item name="goldenrodSeed"/>
+	<item name="pineSeed"/>
+	<item name="mapleSeed"/>
+	<item name="blueSpruceSeed"/>
+</lootgroup>
+
+<lootgroup name="medievalQuests" count="1">
+    <item name="qc_silenceofthelambs" count="1"/>
+    <item name="qc_drunkanddisorderly" count="1"/>
+    <item name="qc_nurseyoubacktohealth" count="1"/>
+    <item name="qc_copanattitude" count="1"/>
+    <item name="qc_dogdaysareover" count="1"/>
+    <item name="qc_itsbitsyspider" count="1"/>
+    <item name="qc_ladykiller" count="1"/>
+    <item name="qc_maneater" count="1"/>
+    <item name="qc_imalumberjackandimokay" count="1"/>
+    <item name="qc_yournothingspecial" count="1"/>
+    <item name="qc_killthewabbit" count="1"/>
+    <item name="qc_nailsomechicks" count="1"/>
+    <item name="qc_thatlldopig" count="1"/>
+    <item name="qc_stagparty" count="1"/>
+    <item name="qc_dontfeedthebears" count="1"/>
+    <item name="qc_buythefarm" count="1"/>
+</lootgroup>
+  
+<lootgroup name="medievalTreasure" count="1">
+    <item name="qt_taylor" count="1"/>
+    <item name="qt_nickole" count="1"/>
+    <item name="qt_stephan" count="1"/>
+    <item name="qt_jennifer" count="1"/>
+    <item name="qt_claude" count="1"/>
+    <item name="qt_sarah" count="1"/>
+    <item name="qt_raphael" count="1"/>
+</lootgroup>
+
+<lootgroup name="medievalMiscellaneous" count="0,2">
+	<item name="sledgehammer"/>
+	<item name="torch" count="1,2" prob="1.2"/>
+	<item name="femur" count="0,2"/>
+	<item name="boneShiv"/>
+	<item name="huntingKnife" prob="0.8"/>
+	<item name="woodenBow" prob="0.8"/>
+	<item name="crossbow" prob="0.4"/>
+	<item name="turd" count="0,2"/>
+	<item name="cigar"/>
+	<item name="cigarette"/>
+	<item name="leatherDuster" prob="0.8"/>
+	<item name="splint" prob="0.4"/>
+	<item name="aloeCream" prob="0.8"/>
+	<item name="bandage"/>	
+	<!--<item name="firstAidBandage"/> -->
+	<item name="herbalAntibiotics" prob="0.2"/>
+	<item name="wood" count="0,20"/>
+	<item name="crushedSand" count="0,20"/>
+	<item name="scrapIron" count="0,20" prob="0.8"/>
+	<item name="forgedIron" count="0,10" prob="0.6"/>  
+	<item name="shortMetalPipe"/>
+	<item name="forgedSteel" count="0,5" prob="0.4"/>
+	<item name="oilShale" count="0,20"/>
+	<item name="animalHide"/>
+	<item name="leather" prob="0.8"/>
+	<item name="scrapBrass" prob="0.6"/>
+	<item name="scrapLead" prob="0.7"/>
+	<item name="clayLump" count="0,20"/>
+	<item name="cobblestones" count="0,20"/>
+	<item name="cloth"/>
+	<item name="feather" count="4,10"/>
+	<item name="ironArrowHead" count="0,5" prob="0.8"/>
+	<item name="steelArrowHead" count="0,3" prob="0.6"/>
+	<item name="coal" count="0,20"/>	
+	<item name="potassiumNitratePowder" count="0,20"/>
+	<item name="animalFat" count="0,5" prob="0.6"/>
+	<item name="tallow" count="0,5" prob="0.8"/>
+	<item name="emptyJar" count="0,3"/>
+	<item name="bucket" prob="0.8"/>
+	<item name="candleStick"/>
+	<item name="trophy"/>
+	<item name="trophy2"/>
+	<item name="candle"/>
+	<item name="cookingGrill" prob="0.8"/>
+	<item name="bellows" prob="0.6"/>
+	<item name="anvil"/>
+	<item name="calipers"/>
+	<item name="toolAndDieSet"/>
+</lootgroup>
+
+<lootgroup name="medievalgroupClothes" count="1">
+    <item group="medievalBandanas" count="1"/>
+    <item group="medievalClothClothes" count="1"/>
+    <item group="medievalFiberClothes" count="1" prob="0.8"/>
+    <item group="medievalHideClothes" count="1" prob="0.7"/>
+    <item group="medievalLeatherClothes" count="1" prob="0.4"/>
+    <item group="medievalScrapClothes" count="1" prob="0.2"/>  
+    <item group="medievalIronClothes" count="1" prob="0.1"/>
+	<!--     <item name="medievalPufferCoats" count="1" prob="0.8"/> -->
+</lootgroup>
 
 <!-- lootcontainer 1 misc storage, cardboard boxes-->
 <lootcontainer id="1" count="0,2" size="4,4" sound_open="UseActions/open_cardboard" sound_close="UseActions/close_cardboard" loot_quality_template="baseTemplate">
@@ -1087,48 +1339,32 @@
 </lootcontainer>
 
 <!-- lootcontainer 71 medieval items-->
-<lootcontainer id="71" count="0,3" size="4,3" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" loot_quality_template="baseTemplate">
-	<item group="questChallenge"/>
-	<item group="treasureMaps"/>
-	<item group="ammo"/>
-	<item group="bandanaAll"/>
-	<item group="pufferCoatAll"/>
-	<item group="rottenFood"/>
-	<item group="toiletLoot"/>
-	<item group="trophyGroup"/>
-	<item group="melee"/>
-	<item group="crossbow+ammo"/>
-	<item group="rareBooks"/>
-	<item group="herbalRecipes"/>
-	<item group="gasPumps"/>
-	<item group="commonBooks"/>
-	<item group="books"/>
-	<item group="cannedfood"/>
-	<item group="seeds"/>
-	<item group="coldfood"/>
-	<item group="cupboard"/>
-	<item group="junk"/>
-	<item group="automotive"/>
-	<item group="hats"/>
-	<item group="clothes"/>
-	<item group="warmClothes"/>
-	<item group="lightArmor"/>
-	<item group="heavyArmor"/>
-	<item group="Armor"/>
-	<item group="garbage"/>
-	<item group="metalpipe_scrap"/>
-	<item group="metalpipe"/>
-	<item group="rareTools"/>
-	<item group="tools"/>
-	<item group="workingStiffs"/>
-	<item group="rareMedicine"/>
-	<item group="medicine"/>
-	<item group="sportingGoods"/>
-	<item group="beverages"/>
-	<item group="automotive+tools+junk"/>
-	<item group="backpacks"/>
-	<item group="airdropMedicine"/>
-	<item group="lumberjacks"/>
+<lootcontainer id="71" count="0,3" size="4,4" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" loot_quality_template="baseTemplate">
+	<item group="medievalTools" prob="0.6"/>
+	<item group="medievalClubs" prob="0.8"/>
+	<item group="medievalArrows" prob="0.8"/>
+	<item group="medievalFoods" prob="1"/>
+	<item group="medievalDrinks" prob="1"/>
+	<item group="medievalBooks" prob="0.4"/>
+	<item group="medievalSeeds" prob="0.8"/>
+	<item group="medievalQuests" prob="0.1"/>
+	<item group="medievalTreasure" prob="0.1"/>	
+	<item group="medievalMiscellaneous" prob="1"/>
+	
+	<!-- moved these into a group
+	<item group="medievalFiberClothes" prob="1"/>	
+	<item group="medievalClothClothes" prob="0.8"/>
+	<item group="medievalHideClothes" prob="0.6"/>		
+	<item group="medievalLeatherClothes" prob="0.4"/>	
+	<item group="medievalScrapClothes" prob="0.2"/>
+	<item group="medievalIronClothes" prob="0.1"/>	
+	<item group="medievalBandanas" prob="0.8"/>	-->
+	<item group="medievalgroupClothes" prob="1"/>
+		
+<!-- Fox: 	
+	<item group="medievalPufferCoats" prob="0.8"/>	
+-->
+
 </lootcontainer>
 
 </lootcontainers>

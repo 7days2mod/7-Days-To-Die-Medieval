@@ -1851,8 +1851,8 @@ group desc for stuff like metal siding
 
 <block id="268" name="cntStorageHealth">
 	<property name="DescriptionKey" value="largeStorageGroupDesc"/>
-	<property name="Class" value="SecureLoot" />
-	<property name="LootList" value="10" />
+	<!-- <property name="Class" value="SecureLoot" /> -->
+	<!-- <property name="LootList" value="10" /> -->
 	<property name="Material" value="wood+wood" />
 	<property name="Texture" value="284" />
 	<property name="FuelValue" value="160" />
@@ -1865,8 +1865,8 @@ group desc for stuff like metal siding
 <block id="269" name="cntStorageHealthInsecure">
     	<property name="IsDeveloper" value="true" />
 	<property name="CustomIcon" value="cntStorageHealth" />
-	<property name="Class" value="Loot" />
-	<property name="LootList" value="10" />
+	<!-- <property name="Class" value="Loot" /> -->
+	<!-- <property name="LootList" value="10" /> -->
 	<property name="Material" value="wood+wood" />
 	<property name="Texture" value="284" />
 	<property class="RepairItems"> <property name="wood" value="20" /> </property>
@@ -1901,10 +1901,10 @@ group desc for stuff like metal siding
 </block>
 
 <block id="274" name="cntGarageStorage">
-	<property name="Class" value="Loot" />
+	<!-- <property name="Class" value="Loot" /> -->
 	<property name="Material" value="cardboard" />
 	<property name="Texture" value="276,270,270,270,270,270" />
-	<property name="LootList" value="22" />
+	<!-- <property name="LootList" value="22" /> -->
 	<drop event="Destroy" count="0" />
 </block>
 
@@ -1993,11 +1993,11 @@ group desc for stuff like metal siding
 </block>
 
 <block id="286" name="cntMedicineCabinet">
-	<property name="Class" value="Loot" />
+	<!-- <property name="Class" value="Loot" /> -->
 	<property name="Material" value="glass" />
 	<property name="Shape" value="Plate" />
 	<property name="Texture" value="358,335,335,335,335,335" />
-	<property name="LootList" value="7" />
+	<!-- <property name="LootList" value="7" />  -->
 	<drop event="Destroy" name="brokenGlass" count="1,2" />
 </block>
 
@@ -2401,7 +2401,7 @@ group desc for stuff like metal siding
 </block>
 
 <block id="335" name="cntTrash_can01">
-	<property name="Class" value="Loot" />
+	<!-- <property name="Class" value="Loot" /> -->
 	<property name="Material" value="Mmetal_thin" />
 	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="Ext3dModel" />
@@ -2412,7 +2412,7 @@ group desc for stuff like metal siding
 </block>
 
 <block id="336" name="cntBin">
-	<property name="Class" value="Loot" />
+	<!-- <property name="Class" value="Loot" /> -->
 	<property name="Material" value="Mmetal_thin" />
 	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="Ext3dModel" />
@@ -2514,7 +2514,7 @@ group desc for stuff like metal siding
 </block>
 
 <block id="349" name="cntFridge">
-	<property name="Class" value="Loot" />
+	<!-- <property name="Class" value="Loot" /> -->
 	<property name="Material" value="metal" />
 	<property name="Shape" value="ModelEntity" />
 	<property name="Texture" value="282" />
@@ -2635,7 +2635,7 @@ group desc for stuff like metal siding
 	<property name="Model" value="Entities/LootContainers/corpse_loot01Prefab" param1="main_mesh" />
 	<property name="Texture" value="241" />
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket" />
-	<property name="LootList" value="37" />
+	<property name="LootList" value="71" />
 	<drop event="Harvest" name="rottingFlesh" count="2" />
 	<drop event="Destroy" name="femur" count="1"/>
 </block>
@@ -4787,12 +4787,12 @@ kind of free
 </block>
 
 <block id="623" name="cntFileCabinet">
-	<property name="Class" value="Loot" />
+	<!-- <property name="Class" value="Loot" /> -->
 	<property name="Material" value="metal" />
 	<property name="Shape" value="ModelEntity" />
 	<property name="Texture" value="282" />
 	<property name="Weight" value="72" />
-	<property name="LootList" value="44" />
+	<!-- <property name="LootList" value="44" />  -->
 	<property name="Model" value="Entities/LootContainers/file_cabinetPrefab" />
 	<drop event="Destroy" name="scrapIron" count="1,2" prob="1" />
 	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
@@ -4823,7 +4823,7 @@ kind of free
 </block>
 
 <block id="626" name="cntLockers">
-	<property name="Class" value="Loot" />
+	<!-- <property name="Class" value="Loot" /> -->
 	<property name="Material" value="metal" />
 	<property name="Shape" value="ModelEntity" />
 	<property name="Texture" value="282" />
@@ -5701,7 +5701,7 @@ kind of free
 	<property name="Shape" value="Half" />
 	<property name="Texture" value="67,241,241,241,241,241" />
 	<property name="Place" value="TowardsPlacer90" />
-	<property name="LootList" value="60" />
+	<property name="LootList" value="71" />
 	<drop event="Destroy" name="wood" count="1" prob="1" />
 	<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1" />
 </block>
@@ -5777,7 +5777,7 @@ kind of free
 	<property name="Shape" value="Half" />
 	<property name="Texture" value="67,241,241,241,241,241" />
 	<property name="Place" value="TowardsPlacer90" />
-	<property name="LootList" value="49" />
+	<property name="LootList" value="71" />
 	<drop event="Destroy" name="wood" count="1" prob="1" />
 	<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1" />
 	<property class="RepairItems"> <property name="wood" value="10" /> </property>
@@ -6745,7 +6745,7 @@ kind of free
 	<!-- Free -->
 
 <block id="892" name="cntCardboardBox">
-	<property name="Class" value="Loot" />
+	<!-- <property name="Class" value="Loot" /> -->
 	<property name="Material" value="cardboard" />
 	<property name="Texture" value="276,270,270,270,270,270" />
 	<property name="LootList" value="1" />
@@ -9513,7 +9513,7 @@ kind of free
 </block>
 
 <block id="1340" name="cntCashRegister">
-	<property name="Class" value="Loot" />
+	<!-- <property name="Class" value="Loot" /> -->
 	<property name="Material" value="MmetalNoGlue" />
 	<property name="MaxDamage" value="250" />
 	<property name="StabilitySupport" value="false" />
@@ -9572,7 +9572,7 @@ kind of free
 </block>
 
 <block id="1347" name="cntShoppingCart">
-	<property name="Class" value="Loot" />
+	<!-- <property name="Class" value="Loot" /> -->
 	<property name="Material" value="metal" />
 	<property name="StabilitySupport" value="false" />
 	<property name="Shape" value="Ext3dModel" />
@@ -10486,7 +10486,7 @@ kind of free
 
 <block id="1453" name="cntCar03Blue">
 	<property name="Material" value="metal" />
-	<property name="Class" value="CarExplodeLoot" />
+	<!-- <property name="Class" value="CarExplodeLoot" /> -->
 	<property name="LootList" value="19" />
 	<property name="Shape" value="ModelEntity" />
 	<property name="Texture" value="26" />
@@ -10514,7 +10514,7 @@ kind of free
 
 <block id="1454" name="cntCar03BlueDamage1">
 	<property name="Material" value="metal" />	
-	<property name="Class" value="CarExplodeLoot" />	
+	<!-- <property name="Class" value="CarExplodeLoot" />	-->
 	<property name="LootList" value="19" />
 	<property name="Shape" value="ModelEntity" />
 	<property name="Texture" value="26" />
@@ -10547,7 +10547,7 @@ kind of free
 </block>
 
 <block id="1455" name="cntCar03Damage2">
-	<property name="Class" value="CarExplode" />
+	<!-- <property name="Class" value="CarExplode" /> -->
 	<property name="Material" value="metal" />
 	<property name="Shape" value="ModelEntity" />
 	<property name="Texture" value="26" />
@@ -10833,7 +10833,7 @@ kind of free
 </block>
 
 <block id="1481" name="cntDumpster">
-	<property name="Class" value="Loot" />
+	<!-- <property name="Class" value="Loot" /> -->
 	<property name="Material" value="metal" />
 	<property name="Shape" value="Ext3dModel" />
 	<property name="Mesh" value="models" />
