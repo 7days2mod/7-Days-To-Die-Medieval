@@ -26,6 +26,8 @@
   <hub_rules>
     <hub_rule name="medieval_hub">
       <hub_type value="town"/>
+      <width value="130,130"/>
+      <height value="130,130"/>
       <hub_layout name="medieval_hub"/>
       <prefab_rule name="hubPOIs"/>
     </hub_rule>
@@ -110,10 +112,11 @@
   <hub_layouts>
     <hub_layout name="medieval_hub">
       <township_type value="town"/>
-      <street start_point="-64,-64" end_point="64,-64" path_material="dirt" path_radius="4"/>
-      <street start_point="64,-64" end_point="64,64" path_material="dirt" path_radius="4"/>
-      <street start_point="64,64" end_point="-64,64" path_material="dirt" path_radius="4"/>
-      <street start_point="-64,64" end_point="-64,-64" path_material="dirt" path_radius="4"/>
+      <street start_point="0,0" end_point="117,0" path_material="dirt" path_radius="4"/>
+      <street start_point="117,0" end_point="117,117" path_material="dirt" path_radius="4"/>
+      <street start_point="117,117" end_point="0,117" path_material="dirt" path_radius="4"/>
+      <street start_point="0,117" end_point="0,0" path_material="dirt" path_radius="4"/>
+      <lot min_x_y="8,109" prefab="medieval_castle_01(StompyNZ)x" rotation_to_road="0"/>
     </hub_layout>
   </hub_layouts>
 </rwgmixer>
